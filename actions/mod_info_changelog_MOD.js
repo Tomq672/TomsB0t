@@ -37,7 +37,7 @@ subtitle: function(data) {
 	 author: "DBM Mods",
 
 	 // The version of the mod (Defaults to 1.0.0)
-	 version: "1.8.7",
+	 version: "1.9.2",
 
 	 // A short description to show on the mod line for this mod (Must be on a single line)
 	 short_description: "Changelog overview",
@@ -85,6 +85,98 @@ html: function(isEvent, data) {
 	return `
 <div>
 <div id ="wrexdiv" style="width: 550px; height: 350px; overflow-y: scroll;">
+	<p>
+	<h2>1.9.2: Update Update</h2>
+		● Updated "Send Stats to DBL" - Removed automated success message from the console<br>
+		● Updated "Convert List To Text" - Added sort option<br>
+		● Updated "Store Audio Info" - Added current song URL<br>
+		● Updated "Custom Image Effect"<br>
+		● Fixed "Find Custom Emoji in Server"<br>
+		● Fixed "Find Category"<br>
+		● Fixed "Add Reaction"<br>
+		● Fixed "Set Role Permissions"<br>
+		● Fixed "Create Channel" - Set Category ID<br>
+		● Merged "Store Role Info Things" with "Store Role Info"<br>
+		● Merged "Store Member Things" with "Store Member Info"<br>
+		● Added "Set AFK Channel"<br>
+		● Added "Math Operation Plus"<br>
+		● Added Donators to the "Welcome" action<br>
+	</p>
+	<p>
+	<h2>1.9.1: Bunch of new mods, and yes, we now have the reaction stuff</h2>
+		● Added Set Role Voice Channel Perms<br>
+		● Added Set Member Voice Channel Perms<br>
+		● Added Find Category<br>
+		● Added Change Prefix<br>
+		● Added Set Role Permissions<br>
+		● Added Get Song Lyrics<br>
+		● Added Get Bot Stats From DBXYZ<br>
+		● Added Check If User Reacted<br>
+		● Added Remove Reaction<br>
+		● Added Find Reaction<br>
+		● Added Store Game Server Info<br>
+		● Added Find Custom Emoji In Server<br>
+		● Merged Send Image MOD with Send Image<br>
+		● Merged Store Server Things with Store Server Info<br>
+		● Merged Store Message Things with Store Message Info<br>
+		● Merged Store Voice Channel Things with Store Voice Channel Info<br>
+		● Merged Store Voice Channel Things with Store Voice Channel Info<br>
+		● Merged Store Channel Things with Store Channel Info<br>
+		● Updated Create Text Channel<br>
+		● Updated DBL actions<br>
+		● Updated Create Voice Channel<br>
+		● Updated Store Reaction Info<br>
+		● Updated Remove Message Reactions<br>
+		● Updated Add Reaction<br>
+		● Fixed Find Member<br>
+		● Fixed Send To Webhook<br>
+		● Fixed Send Embed Message<br>
+		● Fixed Set Bot Activity
+	</p>
+	<p>
+		<h2>1.9: New Mods, Bug fixes and general quality of life improvements!</h2>
+		● Added Store Invite Info<br>
+		● Added Store Emoji Info<br>
+		● Added Basic Math Operation<br>
+		● Added Edit Embed Message<br>
+		● Better YouTube Search<br>
+		● Fixes for Parse From Stored JSON<br>
+		● Fixes for Store Bot Client Info<br>
+		● Fixes for Set Bot Activity<br>
+		● Fixes for Store Reaction Info<br>
+		● Fixes for Run SQL Query<br>
+		● Fixes for Webhook actions<br>
+		● Fixes for Get Item from List<br>
+		● Updated Check If Member<br>
+		● Merged Send Embed Message MOD with Send Embed Message<br>
+		● Merged Store Channel Things with Store Channel Info<br>
+		● Added Await Response (probably not what you are looking for...)<br>
+		● Many little bug fixes
+	</p>
+	<p>
+		<h2>1.8.9: HUGE fixes for everyone!</h2>
+		● Added Math Operation mod! ~iAmaury<br>
+		● Added Convert A Variable (to fix the "Add to member data" problem)! ~EliteArtz<br>
+		● Added a new version of Replace Text! ~iAmaury<br>
+		● Added Check if Member has voted on DBL! ~Lasse<br>
+		● Added Get Stats from DBL! ~EGGS><br>
+		● Added Send Stats to DBL! ~EGGSY<br>
+		● Added Store Date Info! ~iAmaury<br>
+		● Added Loop Through Folder! ~Jakob<br>
+		● Fixed DBMs problem with find offline members! ~Lasse<br>
+		● Added A new Run Script mod with a better UI! ~General Wrex<br>
+		● Added Send Embed Message mod which allows you to store the message object! ~General Wrex<br>
+		● Multiple UI updates and bug fixes!
+	</p>
+	<p>
+		<h2>1.8.8: Store Reaction Info is now available!</h2>
+		● Added Check If Member (is bot/is kickable/is banable/is in voice channel)<br>
+		● Added Skip Actions<br>
+		● Added Store Reaction Info<br>
+		● Added Urban Dictionary Search modification<br>
+		● Redesigned a few modifications UI<br>
+		● MANY bug fixes!
+	</p>
 	<p>
 		<h2>1.8.7: All your wishes except Await Response</h2>
 		● Google & YouTube Search!<br>

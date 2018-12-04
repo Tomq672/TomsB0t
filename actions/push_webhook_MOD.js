@@ -44,7 +44,7 @@ module.exports = {
 
 	 // If it depends on any other mods by name, ex: WrexMODS if the mod uses something from WrexMods
 	 depends_on_mods: [
- 		{name:'custommods',path:'abb_custom_methods_MOD.js'}
+		{name:'WrexMods',path:'aaa_wrexmods_dependencies_MOD.js'}
  	],
 
 
@@ -123,8 +123,8 @@ module.exports = {
 			const data = cache.actions[cache.index];
 			const webhook = parseInt(data.webhook);
 			const varName = this.evalMessage(data.varName, cache);
-			var custommethods = this.getcustommethods();
-			const wh = custommethods.getWebhook(webhook, varName, cache);
+			var WrexMODS = this.getWrexMods();
+			const wh = WrexMODS.getWebhook(webhook, varName, cache);
 			const message = this.evalMessage(data.message, cache);
 			if(!wh) {
 				console.log("Push Webhook ERROR: idk...");
